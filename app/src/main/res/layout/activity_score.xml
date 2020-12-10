@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/holo_orange_dark"
+    tools:context="com.medahane.apps.plus.ScoreActivity">
+
+    <TextView
+
+        android:layout_marginTop="130dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="High Score"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"/>
+    <TextView
+        android:layout_margin="100dp"
+        android:id="@+id/tv_score_score"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="+ 0"
+        android:textColor="@android:color/white"
+        android:textSize="60sp"/>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adv_banner_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginTop="80dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_footer_score">
+    </com.google.android.gms.ads.AdView>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Plus</string>
+
+    <!-- AdMob ad unit IDs -->
+    <string name="banner_footer_start">ca-app-pub-6871490155288055/3794845132</string>
+    <string name="banner_footer_score">ca-app-pub-6871490155288055/6896006412</string>
+    <string name="banner_footer_main">ca-app-pub-6871490155288055/7446493142</string>
+    <string name="interstitial_full_screen">ca-app-pub-6871490155288055/9465010188</string>
+
+</resources>
